@@ -6,7 +6,6 @@ apt-get install -y sudo
 #добавление рута в файл sudoers
 echo 'root ALL=(ALL:ALL) ALL' >> /etc/sudoers
 # Создание всех необходимых папок и файлов
-sudo -u test mkdir -p /home/test/.config/mpd/db.mpd
 sudo -u test mkdir -p /home/test/Music/playlist
 sudo -u test mkdir -p /home/test/logs/
 sudo -u test touch /home/test/.config/mpd/db.mpd
