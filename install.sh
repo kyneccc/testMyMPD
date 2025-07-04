@@ -16,5 +16,5 @@ cp ./mdp.conf /home/test/.config/mpd/
 #установка необходимых пакетов
 apt-get update && apt-get install -y myMPD mpd
 
-sudo -u  test mpd /home/test/.config/mpd/db.mpd
+sudo -u  test mpd /home/test/.config/mpd/mdp.conf 
 systemctl start mympd 
